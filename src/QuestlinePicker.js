@@ -9,6 +9,9 @@ import Grid2 from '@mui/material/Unstable_Grid2'
 import ExportImportDialog from './ExportImportDialog';
 import HelpDialog from './HelpDialog';
 
+// ! Keep in-line with CHANGELOG.md
+const versionString = '1.0.0';
+
 // sorry in advance to anyone who sees this file for i have sinned
 
 const defaultState = questData.map(zone => {
@@ -87,7 +90,7 @@ export default function QuestlinePicker({ zone }) {
     state.slice(0, zone + 1).forEach((zone, i) => {
       Object.entries(zone).forEach(([questName, enabled]) => {
         if (enabled) {
-          xp += questXPValues[i][questName];
+          xp += questXPValues?.[i]?.[questName] || 0;
         }
       });
     })
@@ -183,7 +186,7 @@ export default function QuestlinePicker({ zone }) {
           color="purple.light"
           textAlign="center"
         >
-          version 1.0.0
+          version {versionString}
         </Link>
       </Box>
       <Box>

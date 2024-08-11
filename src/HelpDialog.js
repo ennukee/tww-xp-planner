@@ -30,7 +30,7 @@ export default function HelpDialog({
           This is <b>NOT EXHAUSTIVE</b>. There are many quests that are not tracked, but many of the notable questlines are. Delve quests are ignored in Hallowfall onward due to scaling issues slowing them down substantially.
         </DialogContentText>
         <DialogContentText gutterBottom>
-          If you have done quests not here yourself, and want to provide your opinions, feel free to reach out Discord @ ennukee. Don't just give me the total XP, though, because I can also look at Wowhead for that. 
+          Feedback to @ennukee on Discord
         </DialogContentText>
       </DialogContent>
       <DialogActions>
