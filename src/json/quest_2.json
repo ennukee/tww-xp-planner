@@ -1,0 +1,573 @@
+[
+  [
+    {
+      "name": "Zone Campaign",
+      "campaign": true,
+      "totalXP": 443200,
+      "monsterAdjustment": true
+    },
+    {
+      "name": "The Earthwound",
+      "startingLocation": "Crossroads Plaza",
+      "questSteps": 1,
+      "totalXP": 14960,
+      "rating": 8,
+      "startingQuest": "The Earthwound",
+      "notes": "quest rares take 1min to respawn, not a bad idea to wait for them",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Wanted: The Boroughbreaker",
+      "startingLocation": "Crossroads Plaza",
+      "questSteps": 1,
+      "totalXP": 14960,
+      "rating": 8,
+      "startingQuest": "Wanted: The Boroughbreaker",
+      "notes": "quest rares take 1min to respawn, not a bad idea to wait for them",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Delver's Call: Kriegval's Rest",
+      "startingLocation": "Crossroads Plaza",
+      "questSteps": 1,
+      "totalXP": 72000,
+      "rating": 8,
+      "ratingJustification": "very good monster XP, good speed",
+      "startingQuest": "DELVER'S CALL: Kriegval's Rest",
+      "notes": "as with all delves, these are prime congested XP but can be slightly less efficient than speed questing",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Delver's Call: Fungal Folly",
+      "startingLocation": "Crossroads Plaza",
+      "questSteps": 1,
+      "totalXP": 56000,
+      "rating": 5,
+      "ratingJustification": "annoying delve layouts, bad monster xp gains",
+      "startingQuest": "DELVER'S CALL: Fungal Folly",
+      "notes": "as with all delves, these are prime congested XP but can be slightly less efficient than speed questing",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Hope, An Anomaly",
+      "startingLocation": "Freywold Village",
+      "questSteps": 3,
+      "totalXP": 50996,
+      "rating": 10,
+      "ratingJustification": "super efficient questing, right alongside MSQ",
+      "startingQuest": "Prairie Fever",
+      "notes": "HIGHLY recommended to do, it's right alongside MSQ and good XP",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Seven Soldiers",
+      "startingLocation": "Freywold Village",
+      "questSteps": 3,
+      "totalXP": 82106,
+      "rating": 9,
+      "ratingJustification": "pretty short quests, only the final quest has issues with congestion",
+      "startingQuest": "Weapons and Warriors",
+      "monsterAdjustment": true,
+      "notes": "test"
+    },
+    {
+      "name": "Spores of Dread",
+      "startingLocation": "Freywold Village",
+      "questSteps": 5,
+      "totalXP": 79300,
+      "rating": 1,
+      "ratingJustification": "single quest chain which will have extreme issues with congestion",
+      "startingQuest": "Frayed Legacy",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Remember Me, Earthen (full)",
+      "startingLocation": "Crossroads Plaza",
+      "questSteps": 14,
+      "totalXP": 219600,
+      "rating": 6,
+      "ratingJustification": "this area can be very awkward if congested, but quests are very condensed. I recommend stopping after Who Runs this Fine Establishment? (or whenever you leave the Kobold area) as there is a very long single-quest chain afterwards",
+      "startingQuest": "To Mourning Rise",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Remember Me, Earthen (early leave)",
+      "startingLocation": "Crossroads Plaza",
+      "questSteps": 6,
+      "totalXP": 98820,
+      "rating": 9,
+      "ratingJustification": "if you leave before the long single-quest chains, it's super good xp per time, but can still suffer from congestion",
+      "startingQuest": "To Mourning Rise",
+      "notes": "This is if you leave the area after the Kobold area",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "All Ore Nothing",
+      "startingLocation": "Freywold Village",
+      "questSteps": 7,
+      "totalXP": 69906,
+      "rating": 7,
+      "ratingJustification": "single-quest chains, but the quests are all very easy and there won’t be many issues with congestion here",
+      "startingQuest": "All Ore Nothing",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "For the Love of Gems",
+      "startingLocation": "north of Freywold Village",
+      "questSteps": 4,
+      "totalXP": 40748,
+      "rating": 4,
+      "ratingJustification": "single-quest chains, not great XP, a bit annoying",
+      "startingQuest": "For the Love of Gems",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Opalfront",
+      "startingLocation": "The Opalcreg",
+      "questSteps": 7,
+      "totalXP": 129808,
+      "rating": 7,
+      "ratingJustification": "lots of travel, but good quests, there may be some congestion issues though",
+      "startingQuest": "Opalfront",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Birdman of the Three Shields",
+      "startingLocation": "Rambleshire",
+      "questSteps": "3-4",
+      "totalXP": 42334,
+      "rating": 3,
+      "ratingJustification": "questline is in narnia + the eel quest is AWFUL",
+      "startingQuest": "Birdman of the Three Shields",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "The Hermit",
+      "startingLocation": "Crossroads Plaza",
+      "questSteps": 5,
+      "totalXP": 66856,
+      "rating": 9,
+      "ratingJustification": "very fast quests, minor congestion issues, good xp",
+      "startingQuest": "Lost Delivery",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Lost Lord of the Storm",
+      "startingLocation": "Dornogal",
+      "questSteps": 5,
+      "totalXP": 115168,
+      "rating": 10,
+      "ratingJustification": "super good hub, quests are relatively quick and the 3 rare mob quests are HUGE xp",
+      "startingQuest": "To Rambleshire",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "A Titanic Expedition",
+      "startingLocation": "Rambleshire",
+      "questSteps": 4,
+      "totalXP": 53802,
+      "rating": 8,
+      "ratingJustification": "quick quests, starting quest is obtained alongside doing another good questline",
+      "startingQuest": "A Titanic Expedition!",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Brotherhood in the Skolzgal Wood",
+      "startingLocation": "Crossroads Plaza",
+      "questSteps": 10,
+      "totalXP": 105530,
+      "rating": 2,
+      "ratingJustification": "the only good thing about this questline is that the quest names are funny",
+      "startingQuest": "A Sassy Arathi",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "How Scandalous!",
+      "startingLocation": "Dornogal",
+      "questSteps": 5,
+      "totalXP": 42334,
+      "rating": 8,
+      "ratingJustification": "extremely fast quests, also unlocks the second half of the chain in The Ringing Deeps later on",
+      "startingQuest": "How Scandalous!",
+      "monsterAdjustment": true
+    }
+  ],
+  [
+    {
+      "name": "Zone Campaign",
+      "campaign": true,
+      "totalXP": 494400,
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Delves: The Waterworks (at T3)",
+      "monsterAdjustment": true,
+      "startingLocation": "Gundargaz",
+      "questSteps": 1,
+      "totalXP": 74000,
+      "rating": 7,
+      "ratingJustification": "good layout and good monster xp",
+      "notes": "as with all delves, these are prime congested XP but can be slightly less efficient than speed questing"
+    },
+    {
+      "name": "Delves: Dread Pit (at T3)",
+      "monsterAdjustment": true,
+      "startingLocation": "Gundargaz",
+      "questSteps": 1,
+      "totalXP": 59500,
+      "rating": 2,
+      "ratingJustification": "overall really nasty layouts with lots of high hp mobs to kill",
+      "notes": "as with all delves, these are prime congested XP but can be slightly less efficient than speed questing"
+    },
+    {
+      "name": "Fearbreaker",
+      "startingLocation": "Gundargaz",
+      "questSteps": 7,
+      "totalXP": 106140,
+      "rating": 7,
+      "ratingJustification": "starts off a bit annoying but speeds up and overall good",
+      "startingQuest": "A Hint of Fear",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Kobold Work Crew",
+      "startingLocation": "Gundargaz",
+      "questSteps": 4,
+      "totalXP": 70516,
+      "rating": 9,
+      "ratingJustification": "fast quests, good xp, 0 travel, though it has a puzzle so if you have 0iq gl",
+      "startingQuest": "Kobold Kleanup",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Tired of Rest",
+      "startingLocation": "Shadowvein Point",
+      "questSteps": 7,
+      "totalXP": 67344,
+      "rating": 1,
+      "ratingJustification": "lots of single-quest chains that give abhorrent XP",
+      "startingQuest": "Listener Lost",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Frolicking in the Fetid Grotto",
+      "startingLocation": "Shadowvein Point",
+      "questSteps": 2,
+      "totalXP": 33428,
+      "rating": 8,
+      "ratingJustification": "these quests are fast, downside is that you go out to do the chain and it’s only 3 quests",
+      "startingQuest": "Desperately Seeking Skorthuz",
+      "notes": "Recommended to do with Fearbreaker questline",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Envenomed Vision",
+      "startingLocation": "Glittering Den",
+      "questSteps": 4,
+      "totalXP": 82960,
+      "rating": 8,
+      "ratingJustification": "quick quests with a crazy triple quest cluster",
+      "startingQuest": "A Nebb in Need",
+      "notes": "Recommended to do with Fearbreaker questline",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Dread in the Den",
+      "startingLocation": "Glittering Den",
+      "questSteps": 7,
+      "totalXP": 125904,
+      "rating": 5,
+      "ratingJustification": "decent XP but annoying quests",
+      "startingQuest": "Dread in the Den",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Revenge in the Rumbling Wastes",
+      "startingLocation": "Shadowvein Point",
+      "questSteps": 2,
+      "totalXP": 43432,
+      "rating": 7,
+      "ratingJustification": "close by, semi-fast quests, but I have a fear that this quest can have issues with launch congestion. If you’re alone here, it could be very good",
+      "startingQuest": "Juicy Krolusk Meat",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Broken Tools",
+      "startingLocation": "Gundargaz",
+      "questSteps": 3,
+      "totalXP": 40260,
+      "rating": 7,
+      "ratingJustification": "very fast quests, only 1 minor congestion issue",
+      "startingQuest": "Discarded and Broken",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Abysmal Extraction",
+      "startingLocation": "southwest of Gundargaz near the elevator",
+      "questSteps": 3,
+      "totalXP": 56852,
+      "rating": 9,
+      "ratingJustification": "fast quests, good xp",
+      "startingQuest": "Tired of Tripping",
+      "notes": "There's an intro quest SW of Gundargaz, unsure if it's needed or not",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Into the Fog",
+      "startingLocation": "Taelloch outskirts",
+      "questSteps": 3,
+      "totalXP": 53680,
+      "rating": 7,
+      "ratingJustification": "first and last quest is a bit longer, but overall good",
+      "startingQuest": "Foreign Fog",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Rampage at Nibelgaz Mine",
+      "startingLocation": "southwest of The Refinery dungeon",
+      "questSteps": 5,
+      "totalXP": 71980,
+      "rating": 7,
+      "ratingJustification": "fast and simple quests, main downside is the backtrack in the final quests is a lot of wasted time",
+      "startingQuest": "Rampage in the Refinery",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Magna-nificence",
+      "startingLocation": "the entrance to Hallowfall",
+      "questSteps": 1,
+      "totalXP": 48400,
+      "rating": 10,
+      "ratingJustification": "literally just 4 quests all at once; 3 of which are in the same area, amazing group of quests",
+      "startingQuest": "Magmanagement",
+      "monsterAdjustment": true
+    }
+  ],
+  [
+    {
+      "name": "Zone Campaign",
+      "campaign": true,
+      "totalXP": 542600,
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Status Report",
+      "startingLocation": "Dunelle’s Kindness",
+      "questSteps": 4,
+      "totalXP": 55200,
+      "rating": 7,
+      "ratingJustification": "",
+      "startingQuest": "Status Report",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Care Package",
+      "startingLocation": "Dunelle’s Kindness",
+      "questSteps": 5,
+      "totalXP": 51600,
+      "rating": 6,
+      "ratingJustification": "",
+      "startingQuest": "Care Package",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Striking Steel",
+      "startingLocation": "Mereldar",
+      "questSteps": 7,
+      "totalXP": 116000,
+      "rating": 10,
+      "ratingJustification": "good quests with really good xp, some of the quest objectives can be a bit hard to see, may want to zoom in your minimap",
+      "startingQuest": "Economical Request",
+      "startingQuestId": 82216
+    },    
+    {
+      "name": "Crushing Depths",
+      "startingLocation": "Mereldar, in the center-ish area",
+      "questSteps": 4,
+      "totalXP": 68400,
+      "rating": 10,
+      "ratingJustification": "quick quests and is located exactly where a campaign already brings you",
+      "startingQuest": "Targeted Recon",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Lights Out",
+      "startingLocation": "Lorel’s Crossing, which is directly north-east of Mereldar across the chasm",
+      "questSteps": 7,
+      "totalXP": 126000,
+      "rating": 10,
+      "ratingJustification": "lots of tightly packed quests that are relatively fast, can potentially be an issue if congested",
+      "startingQuest": "Lights Out",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "An Orphan’s Request",
+      "startingLocation": "Mereldar, inside the orphanage",
+      "questSteps": 4,
+      "totalXP": 69600,
+      "rating": 10,
+      "ratingJustification": "very quick, and very good XP quests",
+      "startingQuest": "An Orphan’s Request",
+      "notes": "Grab during Mereldar's Light",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "The Brothers Braunpyke",
+      "startingLocation": "Mereldar, inside the large chapel at the northern side",
+      "questSteps": 8,
+      "totalXP": 112800,
+      "rating": 8,
+      "ratingJustification": "lots of singles, but each quest is very fast and has no major issues with congestion",
+      "startingQuest": "The Brothers Braunpyke",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Arcane Trickles",
+      "startingLocation": "between Mereldar and Tenir’s Ascent / Dawnbreaker dungeon",
+      "questSteps": 4,
+      "totalXP": 56400,
+      "rating": 6,
+      "ratingJustification": "the quests are all single, but they’re ALL full xp. the first quest is particularly annoying, though",
+      "startingQuest": "Arcane Trickles",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "A Mysterious Chef",
+      "startingLocation": "Lorel’s Crossing",
+      "questSteps": 5,
+      "totalXP": 45000,
+      "rating": 7,
+      "ratingJustification": "single quests, but all fast gathering and simple quests",
+      "startingQuest": "Hungry in Hollow",
+      "startingQuestId": 84392
+    },
+    {
+      "name": "Apart for Purpose",
+      "startingLocation": "SW of Mereldar",
+      "questSteps": 4,
+      "totalXP": 46400,
+      "rating": 2,
+      "ratingJustification": "couple annoying quests, long travel, short, single-quest chain",
+      "startingQuest": "A Helping Farmhand",
+      "startingQuestId": 82477
+    },
+    {
+      "name": "The Weight of Duty",
+      "startingLocation": "Mereldar",
+      "questSteps": 3,
+      "totalXP": 28800,
+      "rating": 9,
+      "ratingJustification": "very quick, very short quests - only downside is that it’s only 3 quests long",
+      "startingQuest": "Dereliction of Duty",
+      "startingQuestId": 79159
+    },    
+    {
+      "name": "Suspicious Minds",
+      "startingLocation": "Dunelle’s Kindness",
+      "questSteps": 1,
+      "totalXP": 23200,
+      "rating": 8,
+      "ratingJustification": "quick two quest cluster right at the first 'town' in the campaign, density of quest objectives a bit thin though",
+      "startingQuest": "Suspicious Minds",
+      "startingQuestId": 83247
+    }    
+  ],
+  [
+    {
+      "name": "Zone Campaign",
+      "campaign": true,
+      "totalXP": 332500,
+      "monsterAdjustment": true
+    },
+    {
+      "name": "The Second Front",
+      "startingLocation": "where you begin Ahj-Kahet campaign",
+      "questSteps": 2,
+      "totalXP": 34800,
+      "rating": 8,
+      "ratingJustification": "pretty quick quests that are in the same area as the campaign, and contributes towards Loremaster chievo",
+      "startingQuest": "The Second Front",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "The Wormlands",
+      "startingLocation": "the Weaver’s Lair",
+      "questSteps": 3,
+      "totalXP": 54000,
+      "rating": 7,
+      "ratingJustification": "not the worst quests, should be fine even when congested",
+      "startingQuest": "Strange Bats",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Haggling with Mmarl",
+      "startingLocation": "the Weaver’s Lair",
+      "questSteps": 5,
+      "totalXP": 60600,
+      "rating": 8,
+      "ratingJustification": "quick quests and the singles are particularly fast af",
+      "startingQuest": "Trade Partners",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Silken Ward",
+      "startingLocation": "The Weaver’s Lair center",
+      "questSteps": 5,
+      "totalXP": 60000,
+      "rating": 7,
+      "ratingJustification": "a bunch of single quests, but they’re extremely fast",
+      "startingQuest": "A Silken Thread",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Where the Wild Things Camp",
+      "startingLocation": "Faerin’s Advance (north of main town)",
+      "questSteps": 9,
+      "totalXP": 136800,
+      "rating": 3,
+      "ratingJustification": "good XP but these quests are overall really ass compared to the rest of the region, some specific quests are particularly tedious and do not share with other players when clicked",
+      "startingQuest": "Where the Wild Things Camp",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "The Wild Camp",
+      "startingLocation": "Faerin’s Advance (north of main town)",
+      "questSteps": 5,
+      "totalXP": 46800,
+      "rating": 8,
+      "ratingJustification": "Short, but very fast questline. All quests are talking except for Ancient Respite, so there’s minimal risk of crowding. Can be done as a lower priority questline due to this",
+      "startingQuest": "Beneath the Roots",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Pillar-nest Vosh",
+      "startingLocation": "Faerin’s Advance west entrance",
+      "questSteps": 2,
+      "totalXP": 60000,
+      "rating": 10,
+      "ratingJustification": "fast quests, two doubles, and not far out of the way, super banger",
+      "startingQuest": "Prisoner Preservation",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Searching the Web",
+      "startingLocation": "City of Threads (north-eastern edge)",
+      "questSteps": 3,
+      "totalXP": 29520,
+      "rating": 1,
+      "ratingJustification": "horrendously tedious quests for no xp",
+      "startingQuest": "Searching the Web",
+      "monsterAdjustment": true
+    },
+    {
+      "name": "Gutter Work / Melody of Madness",
+      "startingLocation": "City of Threads (northeast edge near the water)",
+      "questSteps": 3,
+      "totalXP": 66000,
+      "rating": 9,
+      "ratingJustification": "only negative is that it’s in the water",
+      "startingQuest": "A Fin of Every Kind",
+      "monsterAdjustment": true
+    }
+  ]
+]

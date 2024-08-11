@@ -1,9 +1,9 @@
-import { Box, IconButton, LinearProgress, Tooltip, Typography } from '@mui/material'
+import { Box, IconButton, LinearProgress, Link, Tooltip, Typography } from '@mui/material'
 import HelpIcon from '@mui/icons-material/Help';
 import ShareIcon from '@mui/icons-material/Share';
 import React, { useCallback, useEffect, useReducer, useState } from 'react';
 
-import questData from './json/quest_1.json'
+import questData from './json/quest_5.json'
 import Card from './Card'
 import Grid2 from '@mui/material/Unstable_Grid2'
 import ExportImportDialog from './ExportImportDialog';
@@ -150,29 +150,41 @@ export default function QuestlinePicker({ zone }) {
       />
       <Box sx={{
         position: 'fixed',
+        display: 'flex',
+        flexDirection: 'column',
         top: 0,
         left: 0,
       }}>
-        <IconButton
-          onClick={handleOpenShareDialog}
-          fontSize="large"
-          sx={{
-            transform: 'scale(1.5)',
-            margin: "10px",
-        }}
+        <Box>
+          <IconButton
+            onClick={handleOpenShareDialog}
+            fontSize="large"
+            sx={{
+              transform: 'scale(1.5)',
+              margin: "10px",
+          }}
+          >
+            <ShareIcon fontSize="inherit" />
+          </IconButton>
+          <IconButton
+            onClick={handleOpenHelpDialog}
+            fontSize="large"
+            sx={{
+              transform: 'scale(1.5)',
+              margin: "10px",
+          }}
+          >
+            <HelpIcon fontSize="inherit" />
+          </IconButton>
+        </Box>
+        <Link
+          href="https://github.com/ennukee/tww-xp-planner/blob/master/CHANGELOG.md"
+          variant="body2"
+          color="purple.light"
+          textAlign="center"
         >
-          <ShareIcon fontSize="inherit" />
-        </IconButton>
-        <IconButton
-          onClick={handleOpenHelpDialog}
-          fontSize="large"
-          sx={{
-            transform: 'scale(1.5)',
-            margin: "10px",
-        }}
-        >
-          <HelpIcon fontSize="inherit" />
-        </IconButton>
+          version 1.0.0
+        </Link>
       </Box>
       <Box>
         <Typography

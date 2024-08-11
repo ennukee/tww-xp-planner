@@ -1,4 +1,4 @@
-import { Box, Button, CardActions, CardContent, Card as MUICard, Tooltip, Typography } from '@mui/material'
+import { Box, Button, CardActions, CardContent, Link, Card as MUICard, Tooltip, Typography } from '@mui/material'
 import HelpIcon from '@mui/icons-material/Help';
 import React from 'react'
 
@@ -22,6 +22,7 @@ export default function Card({
   notes = '',
   startingQuest = '',
   startingLocation = '',
+  startingQuestId = 0,
   questSteps = 0,
   enabled = false,
   onClickCallback = () => {},
@@ -33,7 +34,8 @@ export default function Card({
       <CardContent>
         <Typography variant="h5" gutterBottom>{name}</Typography>
         {startingQuest && <Typography variant="body2" color="text.secondary">
-          Started by <b>{startingQuest}</b>
+          Started by&nbsp;
+          <Link color="purple.light" href={`https://www.wowhead.com/quest=${startingQuestId}`} target="_blank" rel="noreferrer">{startingQuest}</Link>
         </Typography>}
         {startingLocation && <Typography variant="body2" color="text.secondary" gutterBottom>
           Located at <b>{startingLocation}</b>

@@ -7,7 +7,7 @@ import KeyboardDoubleArrowRight from '@mui/icons-material/KeyboardDoubleArrowRig
 import CssBaseline from '@mui/material/CssBaseline'
 import QuestlinePicker from './QuestlinePicker';
 
-const zones = ['Isle of Dorn', 'Ringing Deeps', 'Hallowfall', 'Ahj-Kahet'];
+const zones = ['Isle of Dorn', 'Ringing Deeps', 'Hallowfall', 'Azj-Kahet'];
 
 export default function Main() {
   const [zone, setZone] = useState(0);
@@ -24,6 +24,7 @@ export default function Main() {
         mode: darkMode ? 'dark' : 'light',
         purple: {
           main: deepPurple[500],
+          light: deepPurple[200],
         }
       },
     });
@@ -48,13 +49,15 @@ export default function Main() {
           height: '100vh',
         }}
       >
-        <Box sx={{
-          display: 'flex',
-          flexDirection: 'row',
-          alignItems: 'center',
-          justifyContent: 'center',
-          gap: 2,
-        }}>
+        <Box
+          sx={{
+            display: 'flex',
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: 2,
+          }}
+        >
           <IconButton
             size="large"
             sx={{transform: "scale(1.5)", margin: "0 10px"}}
