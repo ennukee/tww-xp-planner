@@ -11,7 +11,7 @@ export default function HelpDialog({
       onClose={handleClose}
       fullWidth="lg"
     >
-      <DialogTitle>The War Within QuestXP Helper</DialogTitle>
+      <DialogTitle>The War Within Quest XP Helper</DialogTitle>
       <DialogContent sx={{
         display: 'flex',
         flexDirection: 'column',
@@ -21,16 +21,19 @@ export default function HelpDialog({
           This tool will help provide some general assistance in planning out which sidequests you want to do alongside the main campaign questline
         </DialogContentText>
         <DialogContentText gutterBottom>
-          The output is <b>NOT precise</b> and will not 100% line up with in-game results. Keep this in mind and <b>plan buffers</b>.
+          <b>DISCLAIMER</b>: This tool is <b>NOT</b> exact. It is based on personal testing and some estimations for monster XP gains. It is also <b>based on the Beta</b>, so some things <b>may change</b> before it goes live. <b>Plan accordingly.</b>
         </DialogContentText>
         <DialogContentText gutterBottom>
-          You can optionally use this tool with the more in-depth document <Link href="https://docs.google.com/document/d/1ZEnV5fJmEBNAUNZARHEQ1keDlAL9RQ7yK2wqyIx3Rr8/edit?usp=sharing">seen here</Link>. This document contains more exact XP information as well as quest IDs for every quest that I've tracked
+          Ratings are based on the <b>solo experience</b>. It does not account for potential issues with quest objectives not sharing in groups.
         </DialogContentText>
         <DialogContentText gutterBottom>
-          This is <b>NOT EXHAUSTIVE</b>. There are many quests that are not tracked, but many of the notable questlines are. Delve quests are ignored in Hallowfall onward due to scaling issues slowing them down substantially.
+          You can optionally use this tool with the more in-depth document <Link href="https://docs.google.com/document/d/1ZEnV5fJmEBNAUNZARHEQ1keDlAL9RQ7yK2wqyIx3Rr8/edit?usp=sharing">seen here</Link>. This document contains more granular data, and some additional notes if you're interested.
         </DialogContentText>
         <DialogContentText gutterBottom>
-          Feedback to @ennukee on Discord
+          This is <b>NOT EXHAUSTIVE</b>. Most quests in the Sojourner achievements are included. Delve quests are intentionally excluded in Hallowfall onward due to level scaling.
+        </DialogContentText>
+        <DialogContentText gutterBottom>
+          Feedback to <b>@ennukee</b> on Discord
         </DialogContentText>
       </DialogContent>
       <DialogActions>

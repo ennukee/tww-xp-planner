@@ -7,7 +7,13 @@ import KeyboardDoubleArrowRight from '@mui/icons-material/KeyboardDoubleArrowRig
 import CssBaseline from '@mui/material/CssBaseline'
 import QuestlinePicker from './QuestlinePicker';
 
+import isleOfDornImg from './img/0.jpeg';
+import ringingDeepsImg from './img/1.jpeg';
+import hallowfallImg from './img/2.jpeg';
+import ajzKahetImg from './img/3.jpeg';
+
 const zones = ['Isle of Dorn', 'Ringing Deeps', 'Hallowfall', 'Azj-Kahet'];
+const zoneBgs = [isleOfDornImg, ringingDeepsImg, hallowfallImg, ajzKahetImg];
 
 export default function Main() {
   const [zone, setZone] = useState(0);
@@ -22,10 +28,21 @@ export default function Main() {
     return createTheme({
       palette: {
         mode: darkMode ? 'dark' : 'light',
-        purple: {
-          main: deepPurple[500],
-          light: deepPurple[200],
-        }
+        ...(
+          darkMode
+            ? {
+              purple: {
+                main: deepPurple[500],
+                light: deepPurple[200],
+              }
+            }
+            : {
+              purple: {
+                main: deepPurple[900],
+                light: deepPurple[500],
+              }
+            }
+        ),
       },
     });
   }, [darkMode]);
@@ -38,6 +55,14 @@ export default function Main() {
     }
   }
 
+  const bg = useMemo(() => {
+    if (darkMode) {
+      return `linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7), rgba(0,0,0,.9)), url(${zoneBgs[zone]})`;
+    } else {
+      return `linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.3), rgba(0,0,0,.9)), url(${zoneBgs[zone]})`;
+    }
+  }, [darkMode, zone])
+
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -47,6 +72,8 @@ export default function Main() {
           flexDirection: 'column',
           alignItems: 'center',
           height: '100vh',
+          backgroundImage: bg,
+          backgroundSize: 'cover',
         }}
       >
         <Box
@@ -71,6 +98,9 @@ export default function Main() {
             fontWeight="bold"
             width={700}
             textAlign="center"
+            sx={{
+              fontFamily: 'LifeCraft',
+            }}
           >
             {zones[zone]}
           </Typography>
@@ -83,7 +113,7 @@ export default function Main() {
             <KeyboardDoubleArrowRight fontSize="inherit" />
           </IconButton>
         </Box>
-        <QuestlinePicker zone={zone} />
+        <QuestlinePicker zone={zone} darkMode={darkMode} setDarkMode={setDarkMode} />
       </Box>
     </ThemeProvider>
   )

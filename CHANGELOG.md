@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.1
+
+August 12th, 2024 @ 6:38PM PST
+ - Some visual updates
+  - Changed font of the zone label
+  - Added backgrounds to give the pages some color
+  - Added/fixed light mode
+  - Added manual toggle for light mode (defaults to system default)
+
 ## v1.0.0
 
 August 10th, 2024 @ 6:00PM PST

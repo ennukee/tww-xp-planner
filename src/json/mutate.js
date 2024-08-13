@@ -83,7 +83,6 @@ if (RUN_MUTATIONS[0]) {
   
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2), 'utf-8');
 }
-// ? End of Mutation 1
 
 /*
   ! Mutation 2 - add the startingQuestId field to any questline object that does not have it,
@@ -107,7 +106,6 @@ if (RUN_MUTATIONS[1]) {
   
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2), 'utf-8');
 }
-// ? End of Mutation 2
 
 /*
   ! Mutation 3 - add mapCoords field to any questline object that does not have it, defaulting to 0,0
@@ -133,4 +131,3 @@ if (RUN_MUTATIONS[2]) {
   
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2), 'utf-8');
 }
-// ? End of Mutation 3

@@ -1,6 +1,5 @@
 import { Box, IconButton, LinearProgress, Link, Tooltip, Typography } from '@mui/material'
-import HelpIcon from '@mui/icons-material/Help';
-import ShareIcon from '@mui/icons-material/Share';
+import { Help, Share, DarkMode, LightMode } from '@mui/icons-material'
 import React, { useCallback, useEffect, useReducer, useState } from 'react';
 
 import questData from './json/quest_5.json'
@@ -10,7 +9,7 @@ import ExportImportDialog from './ExportImportDialog';
 import HelpDialog from './HelpDialog';
 
 // ! Keep in-line with CHANGELOG.md
-const versionString = '1.0.0';
+const versionString = '1.0.1';
 
 // sorry in advance to anyone who sees this file for i have sinned
 
@@ -49,7 +48,7 @@ function reducer(state, action) {
   );
 }
 
-export default function QuestlinePicker({ zone }) {
+export default function QuestlinePicker({ zone, darkMode, setDarkMode }) {
   const [state, dispatch] = useReducer(reducer, defaultState);
   const [totalXP, setTotalXP] = useState(0);
   const [currentLevel, setCurrentLevel] = useState(70);
@@ -71,6 +70,10 @@ export default function QuestlinePicker({ zone }) {
 
   const handleOpenHelpDialog = () => {
     setHelpDialogOpen(true);
+  }
+
+  const toggleDarkMode = () => {
+    setDarkMode((prevDarkMode) => !prevDarkMode);
   }
 
   const handleImportClick = (importedState) => {
@@ -160,14 +163,15 @@ export default function QuestlinePicker({ zone }) {
       }}>
         <Box>
           <IconButton
+            color="default"
             onClick={handleOpenShareDialog}
             fontSize="large"
             sx={{
               transform: 'scale(1.5)',
               margin: "10px",
-          }}
+            }}
           >
-            <ShareIcon fontSize="inherit" />
+            <Share fontSize="inherit" />
           </IconButton>
           <IconButton
             onClick={handleOpenHelpDialog}
@@ -175,16 +179,31 @@ export default function QuestlinePicker({ zone }) {
             sx={{
               transform: 'scale(1.5)',
               margin: "10px",
-          }}
+            }}
           >
-            <HelpIcon fontSize="inherit" />
+            <Help fontSize="inherit" />
+          </IconButton>
+          <IconButton
+            onClick={toggleDarkMode}
+            fontSize="large"
+            sx={{
+              transform: 'scale(1.5)',
+              margin: "10px",
+            }}
+          >
+            {darkMode ? (
+              <LightMode fontSize="inherit" />
+            ) : (
+              <DarkMode fontSize="inherit" />
+            )}
           </IconButton>
         </Box>
         <Link
           href="https://github.com/ennukee/tww-xp-planner/blob/master/CHANGELOG.md"
           variant="body2"
           color="purple.light"
-          textAlign="center"
+          textAlign="left"
+          marginLeft="12px"
         >
           version {versionString}
         </Link>
@@ -200,7 +219,7 @@ export default function QuestlinePicker({ zone }) {
           gap="5px"
         >
           Level {currentLevel}
-          <Tooltip title="Reminder: These are ROUGH estimations and may not be 100% accurate"><HelpIcon /></Tooltip>
+          <Tooltip title="Reminder: These are not 100% accurate and may be slightly wrong in-game"><Help /></Tooltip>
         </Typography>
         <Typography variant="body1" textAlign="center" color="text.secondary" gutterBottom>
           XP: {leftoverXP} / {characterLevelThresholds[currentLevel - 70]}
