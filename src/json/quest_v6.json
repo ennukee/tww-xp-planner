@@ -37,14 +37,13 @@
       }
     },
     {
-      "name": "Delver's Call: Kriegval's Rest",
+      "name": "Delver's Call: Kriegval's Rest (T3)",
       "startingLocation": "Crossroads Plaza",
       "questSteps": 1,
       "totalXP": 72000,
       "rating": 8,
       "ratingJustification": "very good monster XP, good speed",
       "startingQuest": "DELVER'S CALL: Kriegval's Rest",
-      "notes": "as with all delves, these are prime congested XP but can be slightly less efficient than speed questing",
       "monsterAdjustment": true,
       "startingQuestId": 83759,
       "mapCoords": {
@@ -60,7 +59,6 @@
       "rating": 5,
       "ratingJustification": "annoying delve layouts, bad monster xp gains",
       "startingQuest": "DELVER'S CALL: Fungal Folly",
-      "notes": "as with all delves, these are prime congested XP but can be slightly less efficient than speed questing",
       "monsterAdjustment": true,
       "startingQuestId": 83758,
       "mapCoords": {
@@ -290,12 +288,13 @@
       "monsterAdjustment": true
     },
     {
-      "name": "Delves: The Waterworks (at T3)",
+      "name": "Delves: The Waterworks (T3)",
       "monsterAdjustment": true,
       "startingLocation": "Gundargaz",
+      "startingQuest": "Delves: The Waterworks",
       "questSteps": 1,
       "totalXP": 74000,
-      "rating": 7,
+      "rating": 7.5,
       "ratingJustification": "good layout and good monster xp",
       "notes": "as with all delves, these are prime congested XP but can be slightly less efficient than speed questing",
       "startingQuestId": 83749,
@@ -305,13 +304,14 @@
       }
     },
     {
-      "name": "Delves: Dread Pit (at T3)",
+      "name": "Delves: Dread Pit (T3)",
       "monsterAdjustment": true,
       "startingLocation": "Gundargaz",
+      "startingQuest": "Delves: Dread Pit",
       "questSteps": 1,
       "totalXP": 59500,
-      "rating": 2,
-      "ratingJustification": "overall really nasty layouts with lots of high hp mobs to kill",
+      "rating": 4,
+      "ratingJustification": "overall nasty layouts with lots of high hp mobs to kill",
       "notes": "as with all delves, these are prime congested XP but can be slightly less efficient than speed questing",
       "startingQuestId": 83766,
       "mapCoords": {
@@ -511,6 +511,67 @@
       "monsterAdjustment": true
     },
     {
+      "name": "Delves: Nightfall Sanctum (T3)",
+      "startingLocation": "Mereldar",
+      "questSteps": 1,
+      "totalXP": 67600,
+      "rating": 9,
+      "ratingJustification": "straight forward, lots of mobs",
+      "startingQuest": "Delves: Nightfall Sanctum",
+      "monsterAdjustment": true,
+      "startingQuestId": 83755,
+      "notes": "Requires campaign progression to be seen. Required to unlock The Underkeep delve quest in Ajz-Kahet",
+      "mapCoords": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "name": "Delves: The Sinkhole (T3)",
+      "startingLocation": "Lorel's Crossing (NE of Mereldar)",
+      "questSteps": 1,
+      "totalXP": 61400,
+      "rating": 7,
+      "ratingJustification": "pretty fast, although quest objectives here are a tad annoying with the ambushers",
+      "startingQuest": "DELVER'S CALL: The Sinkhole",
+      "monsterAdjustment": true,
+      "startingQuestId": 83767,
+      "mapCoords": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "name": "Delves: Mycomancer Cavern (T3)",
+      "startingLocation": "Dunelle's Kindness",
+      "questSteps": 1,
+      "totalXP": 62400,
+      "rating": 6,
+      "ratingJustification": "neutral mobs super annoying, better in groups",
+      "startingQuest": "DELVER'S CALL: Mycomancer Cancern",
+      "monsterAdjustment": true,
+      "startingQuestId": 83769,
+      "mapCoords": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "name": "Delves: The Skittering Breach (T3)",
+      "startingLocation": "Dunelle's Kindness",
+      "questSteps": 1,
+      "totalXP": 57100,
+      "rating": 7,
+      "ratingJustification": "lower xp but very fast",
+      "startingQuest": "DELVER'S CALL: The Skitering Breach",
+      "monsterAdjustment": true,
+      "startingQuestId": 83768,
+      "mapCoords": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
       "name": "What Grows in the Dark",
       "startingLocation": "Dunelle’s Kindness",
       "questSteps": 4,
@@ -698,6 +759,53 @@
       "campaign": true,
       "totalXP": 332500,
       "monsterAdjustment": true
+    },
+    {
+      "name": "Delves: The Underkeep (T3)",
+      "startingLocation": "Unknown (Brann)",
+      "questSteps": 1,
+      "totalXP": 56400,
+      "rating": 6,
+      "ratingJustification": "longer delve with low xp",
+      "startingQuest": "Delves: The Underkeep",
+      "monsterAdjustment": true,
+      "startingQuestId": 83761,
+      "notes": "You must do the Nightfall Sanctum delve quest in Hallowfall to unlock this",
+      "mapCoords": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "name": "Delves: Tak-Rethan Abyss (T3)",
+      "startingLocation": "Weaver's Lair",
+      "notes": "Requires campaign progression to be seen",
+      "questSteps": 1,
+      "totalXP": 58300,
+      "rating": 7,
+      "ratingJustification": "low xp but pretty fast",
+      "startingQuest": "DELVER'S CALL: Tak-Rethan Abyss",
+      "monsterAdjustment": true,
+      "startingQuestId": 83771,
+      "mapCoords": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "name": "Delves: Spiral Weave",
+      "startingLocation": "Faerin's Advance",
+      "questSteps": 1,
+      "totalXP": 63300,
+      "rating": 6,
+      "ratingJustification": "slightly long but decent xp",
+      "startingQuest": "DELVER'S CALL: Spiral Weave",
+      "monsterAdjustment": true,
+      "startingQuestId": 83770,
+      "mapCoords": {
+        "x": 0,
+        "y": 0
+      }
     },
     {
       "name": "The Second Front",

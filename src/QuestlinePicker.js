@@ -9,7 +9,7 @@ import ExportImportDialog from './ExportImportDialog';
 import HelpDialog from './HelpDialog';
 
 // ! Keep in-line with CHANGELOG.md
-const versionString = '1.0.1';
+const versionString = '1.0.2';
 
 // sorry in advance to anyone who sees this file for i have sinned
 

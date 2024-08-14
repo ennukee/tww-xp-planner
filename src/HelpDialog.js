@@ -30,7 +30,7 @@ export default function HelpDialog({
           You can optionally use this tool with the more in-depth document <Link href="https://docs.google.com/document/d/1ZEnV5fJmEBNAUNZARHEQ1keDlAL9RQ7yK2wqyIx3Rr8/edit?usp=sharing">seen here</Link>. This document contains more granular data, and some additional notes if you're interested.
         </DialogContentText>
         <DialogContentText gutterBottom>
-          This is <b>NOT EXHAUSTIVE</b>. Most quests in the Sojourner achievements are included. Delve quests are intentionally excluded in Hallowfall onward due to level scaling.
+          This is <b>NOT EXHAUSTIVE</b>. Most quests in the Sojourner achievements are included.
         </DialogContentText>
         <DialogContentText gutterBottom>
           Feedback to <b>@ennukee</b> on Discord

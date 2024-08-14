@@ -1,6 +1,11 @@
 # Changelog
 
-## 1.0.1
+## v1.0.2
+
+August 14th, 2024 @ 2:09PM PST
+ - Added delves for Hallowfall and Ajz-Kahet due to the rising strat of rushing campaign for adventure mode while doing t3 delves for scaling gear
+
+## v1.0.1
 
 August 12th, 2024 @ 6:38PM PST
  - Some visual updates
