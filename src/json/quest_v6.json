@@ -37,7 +37,7 @@
       }
     },
     {
-      "name": "Delver's Call: Kriegval's Rest (T3)",
+      "name": "Delves: Kriegval's Rest (T3)",
       "startingLocation": "Crossroads Plaza",
       "questSteps": 1,
       "totalXP": 72000,
@@ -52,7 +52,7 @@
       }
     },
     {
-      "name": "Delver's Call: Fungal Folly",
+      "name": "Delves: Fungal Folly (T3)",
       "startingLocation": "Crossroads Plaza",
       "questSteps": 1,
       "totalXP": 56000,
@@ -793,7 +793,7 @@
       }
     },
     {
-      "name": "Delves: Spiral Weave",
+      "name": "Delves: Spiral Weave (T3)",
       "startingLocation": "Faerin's Advance",
       "questSteps": 1,
       "totalXP": 63300,

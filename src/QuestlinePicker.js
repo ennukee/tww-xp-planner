@@ -2,7 +2,7 @@ import { Box, IconButton, LinearProgress, Link, Tooltip, Typography } from '@mui
 import { Help, Share, DarkMode, LightMode } from '@mui/icons-material'
 import React, { useCallback, useEffect, useReducer, useState } from 'react';
 
-import questData from './json/quest_5.json'
+import questData from './json/quest_v6.json'
 import Card from './Card'
 import Grid2 from '@mui/material/Unstable_Grid2'
 import ExportImportDialog from './ExportImportDialog';
