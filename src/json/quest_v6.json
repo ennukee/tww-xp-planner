@@ -3,8 +3,10 @@
     {
       "name": "Zone Campaign",
       "campaign": true,
-      "totalXP": 443200,
-      "monsterAdjustment": true
+      "totalXP": 519200,
+      "monsterAdjustment": true,
+      "notes": "This includes the intro quests surrounding the Dalaran crash intro",
+      "__selfNote": "443200 for original value, 76000 added for dalaran crash quests"
     },
     {
       "name": "The Earthwound",
@@ -520,7 +522,7 @@
       "startingQuest": "Delves: Nightfall Sanctum",
       "monsterAdjustment": true,
       "startingQuestId": 83755,
-      "notes": "Requires campaign progression to be seen. Required to unlock The Underkeep delve quest in Ajz-Kahet",
+      "notes": "requires campaign progression to be seen",
       "mapCoords": {
         "x": 0,
         "y": 0
@@ -762,7 +764,7 @@
     },
     {
       "name": "Delves: The Underkeep (T3)",
-      "startingLocation": "Unknown (Brann)",
+      "startingLocation": "Weaver's Lair (Brann)",
       "questSteps": 1,
       "totalXP": 56400,
       "rating": 6,
@@ -770,7 +772,7 @@
       "startingQuest": "Delves: The Underkeep",
       "monsterAdjustment": true,
       "startingQuestId": 83761,
-      "notes": "You must do the Nightfall Sanctum delve quest in Hallowfall to unlock this",
+      "notes": "requires some campaign progression to see Brann",
       "mapCoords": {
         "x": 0,
         "y": 0

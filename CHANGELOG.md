@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.0.2a
+
+August 15th, 2024 @ 2:25PM PST
+ - Fixed some labels that said Underkeep / Nightfall delves were prerequisites to each other, but they are not
+ - Added XP gained by Dalaran crash quests (recently tested in the launch stress test)
+
 ## v1.0.2
 
 August 14th, 2024 @ 2:09PM PST

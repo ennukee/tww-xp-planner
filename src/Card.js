@@ -86,7 +86,7 @@ export default function Card({
         </Box>}
         {notes && (
           <Tooltip title={notes} placement="left">
-            <Typography sx={{cursor: 'default', marginBottom: "-20px"}} fontSize="10px" color="text.secondary">additional notes, hover me</Typography>
+            <Typography sx={{cursor: 'default', marginBottom: name === 'Zone Campaign' ? '0px' : "-20px"}} fontSize="10px" color="text.secondary">additional notes, hover me</Typography>
           </Tooltip>
         )}
       </CardContent>
