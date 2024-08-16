@@ -1,15 +1,16 @@
-import { Box, IconButton, LinearProgress, Link, Tooltip, Typography } from '@mui/material'
-import { Help, Share, DarkMode, LightMode } from '@mui/icons-material'
-import React, { useCallback, useEffect, useReducer, useState } from 'react';
+import { Box, IconButton, LinearProgress, Link, Popover, Tooltip, Typography } from '@mui/material'
+import { Help, Share, DarkMode, LightMode, Map } from '@mui/icons-material'
+import React, { useCallback, useEffect, useReducer, useRef, useState } from 'react';
 
 import questData from './json/quest_v6.json'
 import Card from './Card'
 import Grid2 from '@mui/material/Unstable_Grid2'
 import ExportImportDialog from './ExportImportDialog';
 import HelpDialog from './HelpDialog';
+import MapDialog from './MapDialog';
 
 // ! Keep in-line with CHANGELOG.md
-const versionString = '1.0.2a';
+const versionString = '1.1.0';
 
 // sorry in advance to anyone who sees this file for i have sinned
 
@@ -22,6 +23,10 @@ const defaultState = questData.map(zone => {
 
 const questXPValues = questData.map(zone => {
   return Object.fromEntries(zone.map(quest => [quest.name, quest.totalXP]));
+})
+
+const questCoordValues = questData.map(zone => {
+  return Object.fromEntries(zone.map(quest => [quest.name, quest.mapCoords]));
 })
 
 const characterLevelThresholds = [
@@ -55,6 +60,9 @@ export default function QuestlinePicker({ zone, darkMode, setDarkMode }) {
   const [leftoverXP, setLeftoverXP] = useState(0);
   const [shareDialogOpen, setShareDialogOpen] = useState(false);
   const [helpDialogOpen, setHelpDialogOpen] = useState(false);
+  const [mapDialogOpen, setMapDialogOpen] = useState(false);
+  const [mapTipPopoverOpen, setMapTipPopoverOpen] = useState(false);
+  const mapIconRef = useRef();
 
   // Special variable to prevent certain actions until the on-load
   // actions have finished
@@ -70,6 +78,10 @@ export default function QuestlinePicker({ zone, darkMode, setDarkMode }) {
 
   const handleOpenHelpDialog = () => {
     setHelpDialogOpen(true);
+  }
+
+  const handleOpenMapDialog = () => {
+    setMapDialogOpen(true);
   }
 
   const toggleDarkMode = () => {
@@ -105,7 +117,6 @@ export default function QuestlinePicker({ zone, darkMode, setDarkMode }) {
     // Do not save state until we've done initial load shenanigans
     if (initialLoadBuffer) {
       localStorage.setItem('questToggleState', JSON.stringify(state));
-      console.log(state);
     }
   }, [state, initialLoadBuffer])
 
@@ -114,6 +125,12 @@ export default function QuestlinePicker({ zone, darkMode, setDarkMode }) {
     if (!hasUserSeenHelpDialog) {
       setHelpDialogOpen(true);
       localStorage.setItem('hasUserSeenHelpDialog', true);
+    }
+
+    const hasUserSeenMapTip = localStorage.getItem('hasUserSeenHelpMapTip');
+    if (!hasUserSeenMapTip) {
+      setMapTipPopoverOpen(true);
+      localStorage.setItem('hasUserSeenHelpMapTip', true);
     }
 
     // Initial load shenanigans, trying to load cached state from local storage
@@ -153,6 +170,13 @@ export default function QuestlinePicker({ zone, darkMode, setDarkMode }) {
         questState={state}
         handleClose={() => setShareDialogOpen(false)}
         handleImportClick={handleImportClick}
+      />
+      <MapDialog
+        open={mapDialogOpen}
+        setOpen={setMapDialogOpen}
+        questState={state}
+        questCoordValues={questCoordValues}
+        questData={questData}
       />
       <Box sx={{
         position: 'fixed',
@@ -197,6 +221,38 @@ export default function QuestlinePicker({ zone, darkMode, setDarkMode }) {
               <DarkMode fontSize="inherit" />
             )}
           </IconButton>
+          <IconButton
+            onClick={handleOpenMapDialog}
+            fontSize="large"
+            sx={{
+              transform: 'scale(1.5)',
+              margin: "10px",
+            }}
+            ref={mapIconRef}
+          >
+            <Map fontSize="inherit" />
+          </IconButton>
+          <Popover
+            open={mapTipPopoverOpen}
+            anchorEl={mapIconRef.current}
+            anchorOrigin={{
+              vertical: 'center',
+              horizontal: 'right',
+            }}
+            transformOrigin={{
+              vertical: 'center',
+              horizontal: 'left',
+            }}
+            onClose={() => setMapTipPopoverOpen(false)}
+          >
+            <Typography
+              sx={{
+                padding: '5px'
+              }}
+            >
+              {"< "} You can now view the map locations for selected quests!
+            </Typography>
+          </Popover>
         </Box>
         <Link
           href="https://github.com/ennukee/tww-xp-planner/blob/master/CHANGELOG.md"

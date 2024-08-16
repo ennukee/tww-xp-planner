@@ -32,14 +32,16 @@ export default function Main() {
           darkMode
             ? {
               purple: {
-                main: deepPurple[500],
+                main: deepPurple[100],
                 light: deepPurple[200],
-              }
+                contrastText: "#ffffff",
+              },
             }
             : {
               purple: {
                 main: deepPurple[900],
                 light: deepPurple[500],
+                contrastText: deepPurple[100],
               }
             }
         ),

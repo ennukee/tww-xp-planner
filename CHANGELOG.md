@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.1.0
+
+This is the last major feature release planned before The War Within launch. If there's anything big you think should be in, DM me on Discord @ennukee
+
+August 15th, 2024 @ 10:33PM PST
+ - Added the map visualization feature
+  - This feature aims to give general directions to where you should go to do the side quests you've selected on the app
+  - These area in the generally right location, but are not exact. They may be offset slightly to prevent overlapping another quest marker in the same spot on the map.
+
+
 ## v1.0.2a
 
 August 15th, 2024 @ 2:25PM PST

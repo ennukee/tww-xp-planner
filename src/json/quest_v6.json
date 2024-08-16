@@ -19,8 +19,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 83336,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 55.11,
+        "y": 55.79
       }
     },
     {
@@ -34,8 +34,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 83335,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 54.81,
+        "y": 55.79
       }
     },
     {
@@ -49,8 +49,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 83759,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 55.61,
+        "y": 55.91
       }
     },
     {
@@ -64,8 +64,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 83758,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 55.65,
+        "y": 56.21
       }
     },
     {
@@ -80,8 +80,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 78469,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 41.35,
+        "y": 72.93
       }
     },
     {
@@ -96,8 +96,8 @@
       "notes": "test",
       "startingQuestId": 78996,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 42.81,
+        "y": 72.43
       }
     },
     {
@@ -111,8 +111,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 78570,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 41.34,
+        "y": 71.83
       }
     },
     {
@@ -126,8 +126,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 81661,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 56.38,
+        "y": 55.69
       }
     },
     {
@@ -142,8 +142,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 81661,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 56.38,
+        "y": 55.69
       }
     },
     {
@@ -157,8 +157,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 82792,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 40.68,
+        "y": 72.23
       }
     },
     {
@@ -172,8 +172,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 82441,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 43.35,
+        "y": 70.22
       }
     },
     {
@@ -187,8 +187,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 83082,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 45.82,
+        "y": 63.30
       }
     },
     {
@@ -202,8 +202,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 82680,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 59.46,
+        "y": 29.06
       }
     },
     {
@@ -217,8 +217,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 78754,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 55.72,
+        "y": 57.39
       }
     },
     {
@@ -232,8 +232,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 78289,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 50.10,
+        "y": 39.70
       }
     },
     {
@@ -247,8 +247,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 79724,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 61.33,
+        "y": 33.38
       }
     },
     {
@@ -262,8 +262,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 80456,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 55.58,
+        "y": 54.98
       }
     },
     {
@@ -277,8 +277,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 80207,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 52.11,
+        "y": 38.60
       }
     }
   ],
@@ -301,14 +301,14 @@
       "notes": "as with all delves, these are prime congested XP but can be slightly less efficient than speed questing",
       "startingQuestId": 83749,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 46.96,
+        "y": 32.56
       }
     },
     {
       "name": "Delves: Dread Pit (T3)",
       "monsterAdjustment": true,
-      "startingLocation": "Gundargaz",
+      "startingLocation": "Traelloch outskirts",
       "startingQuest": "Delves: Dread Pit",
       "questSteps": 1,
       "totalXP": 59500,
@@ -317,8 +317,8 @@
       "notes": "as with all delves, these are prime congested XP but can be slightly less efficient than speed questing",
       "startingQuestId": 83766,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 58.92,
+        "y": 65.18
       }
     },
     {
@@ -332,8 +332,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 79256,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 47.36,
+        "y": 35.26
       }
     },
     {
@@ -362,8 +362,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 80576,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 62.20,
+        "y": 47.70
       }
     },
     {
@@ -378,8 +378,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 81693,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 63.00,
+        "y": 48.07
       }
     },
     {
@@ -394,8 +394,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 79367,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 66.28,
+        "y": 43.47
       }
     },
     {
@@ -409,8 +409,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 80508,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 66.50,
+        "y": 43.67
       }
     },
     {
@@ -424,8 +424,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 81655,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 63.60,
+        "y": 48.27
       }
     },
     {
@@ -439,13 +439,13 @@
       "monsterAdjustment": true,
       "startingQuestId": 78562,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 48.56,
+        "y": 35.36
       }
     },
     {
       "name": "Abysmal Extraction",
-      "startingLocation": "southwest of Gundargaz near the elevator",
+      "startingLocation": "southeast of Gundargaz near the elevator",
       "questSteps": 3,
       "totalXP": 56852,
       "rating": 9,
@@ -455,8 +455,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 82952,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 52.71,
+        "y": 44.97
       }
     },
     {
@@ -470,13 +470,13 @@
       "monsterAdjustment": true,
       "startingQuestId": 81556,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 59.99,
+        "y": 59.87
       }
     },
     {
       "name": "Rampage at Nibelgaz Mine",
-      "startingLocation": "southwest of The Refinery dungeon",
+      "startingLocation": "southeast of The Refinery dungeon",
       "questSteps": 5,
       "totalXP": 71980,
       "rating": 7,
@@ -485,8 +485,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 79149,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 50.70,
+        "y": 16.16
       }
     },
     {
@@ -500,8 +500,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 83160,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 41.28,
+        "y": 23.96
       }
     }
   ],
@@ -524,8 +524,8 @@
       "startingQuestId": 83755,
       "notes": "requires campaign progression to be seen",
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 42.55,
+        "y": 55.47
       }
     },
     {
@@ -539,8 +539,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 83767,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 48.43,
+        "y": 40.46
       }
     },
     {
@@ -554,8 +554,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 83769,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 67.75,
+        "y": 46.40
       }
     },
     {
@@ -569,8 +569,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 83768,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 67.85,
+        "y": 46.50
       }
     },
     {
@@ -584,8 +584,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 79309,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 69.55,
+        "y": 45.80
       }
     },
     {
@@ -599,8 +599,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 79304,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 69.15,
+        "y": 44.59
       }
     },
     {
@@ -614,8 +614,8 @@
       "startingQuestId": 82216,
       "monsterAdjustment": true,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 43.55,
+        "y": 55.47
       }
     },
     {
@@ -629,8 +629,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 81797,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 42.21,
+        "y": 57.09
       }
     },
     {
@@ -644,8 +644,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 78686,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 48.36,
+        "y": 39.96
       }
     },
     {
@@ -660,8 +660,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 79151,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 41.54,
+        "y": 56.18
       }
     },
     {
@@ -675,8 +675,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 82628,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 40.94,
+        "y": 51.34
       }
     },
     {
@@ -690,8 +690,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 80176,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 47.23,
+        "y": 64.54
       }
     },
     {
@@ -705,8 +705,8 @@
       "startingQuestId": 84392,
       "monsterAdjustment": true,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 49.50,
+        "y": 39.85
       }
     },
     {
@@ -720,8 +720,8 @@
       "startingQuestId": 82477,
       "monsterAdjustment": true,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 39.67,
+        "y": 61.42
       }
     },
     {
@@ -735,8 +735,8 @@
       "startingQuestId": 79159,
       "monsterAdjustment": true,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 43.95,
+        "y": 54.47
       }
     },
     {
@@ -750,8 +750,8 @@
       "startingQuestId": 83247,
       "monsterAdjustment": true,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 68.55,
+        "y": 45.30
       }
     }
   ],
@@ -774,8 +774,8 @@
       "startingQuestId": 83761,
       "notes": "requires some campaign progression to see Brann",
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 56.45,
+        "y": 42.73
       }
     },
     {
@@ -790,8 +790,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 83771,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 56.6,
+        "y": 42.9
       }
     },
     {
@@ -805,8 +805,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 83770,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 59.73,
+        "y": 19.60
       }
     },
     {
@@ -820,8 +820,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 79574,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 27.37,
+        "y": 37.65
       }
     },
     {
@@ -835,8 +835,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 83321,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 55.51,
+        "y": 44.53
       }
     },
     {
@@ -850,8 +850,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 79651,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 56.58,
+        "y": 43.93
       }
     },
     {
@@ -865,8 +865,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 83324,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 55.85,
+        "y": 44.23
       }
     },
     {
@@ -881,8 +881,8 @@
       "totalXP": null,
       "monsterAdjustment": true,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 59.46,
+        "y": 18.8
       }
     },
     {
@@ -896,8 +896,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 83716,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 59.3,
+        "y": 18.5
       }
     },
     {
@@ -911,8 +911,8 @@
       "monsterAdjustment": true,
       "startingQuestId": 79335,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 58.66,
+        "y": 20.19
       }
     },
     {
@@ -928,8 +928,8 @@
       "totalXP": null,
       "monsterAdjustment": true,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 50.64,
+        "y": 70.56
       }
     },
     {
@@ -944,8 +944,8 @@
       "notes": "quest item drops from mobs",
       "startingQuestId": 79710,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 59.93,
+        "y": 67.67
       }
     },
     {
@@ -960,8 +960,8 @@
       "totalXP": null,
       "monsterAdjustment": true,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 53.18,
+        "y": 77.74
       }
     },
     {
@@ -977,8 +977,8 @@
       "totalXP": null,
       "monsterAdjustment": true,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 55.25,
+        "y": 43.13
       }
     },
     {
@@ -994,8 +994,8 @@
       "totalXP": null,
       "monsterAdjustment": true,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 56.65,
+        "y": 44.73
       }
     },
     {
@@ -1011,8 +1011,8 @@
       "totalXP": null,
       "monsterAdjustment": true,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 55.18,
+        "y": 80.83
       }
     },
     {
@@ -1028,8 +1028,8 @@
       "totalXP": null,
       "monsterAdjustment": true,
       "mapCoords": {
-        "x": 0,
-        "y": 0
+        "x": 58.52,
+        "y": 89.11
       }
     }
   ]
