@@ -17,6 +17,7 @@ export default function MapDialog({
   questState,
   questCoordValues,
   questData,
+  darkMode,
 }) {
   const [zone, setZone] = useState(0);
   const handleClose = () => {
@@ -144,7 +145,7 @@ export default function MapDialog({
                 zIndex: 100,
                 display: 'flex',
                 flexDirection: 'column',
-                backgroundColor: 'rgba(0,0,0,.5)',
+                backgroundColor: darkMode ? 'rgba(0,0,0,.5)' : 'rgba(255,255,255,.5)',
                 padding: '10px 20px',
                 margin: '10px',
                 borderRadius: '10px',

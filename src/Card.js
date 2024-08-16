@@ -1,6 +1,7 @@
 import { Box, Button, CardActions, CardContent, Link, Card as MUICard, Tooltip, Typography } from '@mui/material'
 import HelpIcon from '@mui/icons-material/Help';
 import React from 'react'
+import { Add, Notes, Remove } from '@mui/icons-material';
 
 function formatNumber(number) {
   return (number / 1000).toFixed(1) + 'K';
@@ -31,7 +32,11 @@ export default function Card({
     <MUICard variant="outlined" sx={{
       borderColor: enabled ? "purple.main" : "",
     }}>
-      <CardContent>
+      <CardContent
+        sx={{
+          paddingBottom: 0,
+        }}
+      >
         <Typography variant="h5" gutterBottom>{name}</Typography>
         {startingQuest && <Typography variant="body2" color="text.secondary">
           Started by&nbsp;
@@ -86,7 +91,16 @@ export default function Card({
         </Box>}
         {notes && (
           <Tooltip title={notes} placement="left">
-            <Typography sx={{cursor: 'default', marginBottom: name === 'Zone Campaign' ? '0px' : "-20px"}} fontSize="10px" color="text.secondary">additional notes, hover me</Typography>
+            <Typography
+              sx={{
+                cursor: 'default',
+              }}
+              lineHeight="14px"
+              fontSize="11px"
+              color="text.secondary"
+            >
+              <Notes fontSize="inherit" /> additional notes
+            </Typography>
           </Tooltip>
         )}
       </CardContent>
@@ -95,8 +109,15 @@ export default function Card({
           size="small"
           color={enabled ? "error" : "success"}
           onClick={onClickCallback}
+          sx={{
+            fontSize: "16px",
+            display: 'flex',
+            flexDirection: 'row',
+            gap: "5px",
+          }}
         >
-          {enabled ? "Remove from complete list" : "Add to complete list"}
+          {enabled ? <Remove fontSize="inherit" /> : <Add fontSize="inherit" />}
+          {enabled ? "REMOVE" : "ADD"}
         </Button>
       </CardActions>}
     </MUICard>

@@ -177,6 +177,7 @@ export default function QuestlinePicker({ zone, darkMode, setDarkMode }) {
         questState={state}
         questCoordValues={questCoordValues}
         questData={questData}
+        darkMode={darkMode}
       />
       <Box sx={{
         position: 'fixed',
