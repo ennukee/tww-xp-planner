@@ -1,18 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.54d37de9.css",
-    "main.js": "/static/js/main.2f5e8040.js",
+    "main.js": "/static/js/main.826b4ca3.js",
+    "static/media/map3.png": "/static/media/map3.6107ebc30ee845f4e5e5.png",
+    "static/media/map2.jpg": "/static/media/map2.80898c0a386d0469ab04.jpg",
+    "static/media/map1.jpg": "/static/media/map1.86b91032a9e009c0f951.jpg",
+    "static/media/map0.jpg": "/static/media/map0.d16210c2b0c073638f87.jpg",
     "static/media/3.jpeg": "/static/media/3.86df2d10d6fd11d7e3fa.jpeg",
     "static/media/1.jpeg": "/static/media/1.20c2d8390d42bdd1792d.jpeg",
     "static/media/0.jpeg": "/static/media/0.4b2370cb1d5d8689b4a4.jpeg",
     "static/media/2.jpeg": "/static/media/2.22ebca4c39ca18e3f7f7.jpeg",
+    "static/media/questicon.png": "/static/media/questicon.5ec91198cc96797639cb.png",
     "static/media/LifeCraft_Font.ttf": "/static/media/LifeCraft_Font.7f2bcab913fb2c2796e0.ttf",
     "index.html": "/index.html",
     "main.54d37de9.css.map": "/static/css/main.54d37de9.css.map",
-    "main.2f5e8040.js.map": "/static/js/main.2f5e8040.js.map"
+    "main.826b4ca3.js.map": "/static/js/main.826b4ca3.js.map"
   },
   "entrypoints": [
     "static/css/main.54d37de9.css",
-    "static/js/main.2f5e8040.js"
+    "static/js/main.826b4ca3.js"
   ]
 }
